@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "name": "island-health-app",
+    "slug": "island-health-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "islandhealthapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.islandhealthapp"
+    },
+
+    "updates": {
+      "url": "https://u.expo.dev/20ca376e-2584-4ba9-9ee6-e289e9012a4e"
+    },
+
+    "runtimeVersion": "1.0.0",
+
+    "extra": {
+      "eas": {
+        "projectId": "20ca376e-2584-4ba9-9ee6-e289e9012a4e"
+      }
+    },
+
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.islandhealthapp"
+    },
+
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      "expo-web-browser",
+      "expo-updates"
+    ],
+
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

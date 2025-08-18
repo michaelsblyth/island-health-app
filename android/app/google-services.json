@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "175610832210",
+    "project_id": "islandhealthapp",
+    "storage_bucket": "islandhealthapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175610832210:android:b63421da98dc7724ed468b",
+        "android_client_info": {
+          "package_name": "com.anonymous.islandhealthapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCohV7BLvOgj9DMhPw7DMVxx2p8qML5XIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175610832210:android:9d6705729261f03fed468b",
+        "android_client_info": {
+          "package_name": "gg.islandhealth.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCohV7BLvOgj9DMhPw7DMVxx2p8qML5XIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
